@@ -22,7 +22,7 @@ int main(){
     // msa->name=adeel->name; //ekhane shudhu matro adeel object er name copy kore msa object er name e bosano hoyeche. ekhon adeel object delete kore dileo msa te copy howya name pawa zabe. ekhane shudhu adeel object er name msa object er name e copy hoyeche , sompurno object copy hoy ni. tai adeel object delete kore dileo msa theke copy howya name access kora zabe.
     // delete adeel;
     // cout<<msa->name;
-    *msa=*adeel; // ekhane adeel object ti sompurno vabe copy kore msa object e rakha hoyeche. ekhon adeel object ti delete kore dileo msa theke er sob property access kora zabe.
+    *msa=*adeel; // ekhane adeel object ti dereference kore sompurno vabe copy kore msa object er dereference valu te rakha hoyeche. ekhon adeel object ti delete kore dileo msa theke er sob property access kora zabe.
     cout<<msa->name<<" "<<msa->age;
     return 0;
 }
